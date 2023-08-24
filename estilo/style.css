@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600&family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 :root {
     --fonte01: Verdana, Geneva, Tahoma, sans-serif;
     --fonte02: 'Passion One', sans-serif, cursive;
@@ -50,12 +51,12 @@ header a:hover, footer a:hover {
 section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
-    font-family: var(--fonte03);
     font-size: 3.5vw;
 }
 
 section > p {
     padding-bottom: 2em;
+    font-family: var(--fonte03);
 }
 
 section.normal {
